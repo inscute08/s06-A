@@ -1,0 +1,43 @@
+* {
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+#external{
+    color: yellow;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+#upper {
+    text-transform: uppercase;      
+}
+
+li.learn-list-items {
+    background-color    : green;
+}
+
+li[class = "used-list-items"] {
+    border-style: solid;
+    border-color: blue;
+}
+
+h4 + img + ul {
+    list-style-type: none;
+}
+
+section img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+ul > li {
+    letter-spacing: 10px;
+}
+
+ul ~ p {
+    text-align: center;
+}
